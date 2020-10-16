@@ -29,7 +29,7 @@
 					<div class="inner">
 						<h3><?= $employee_numrows ?></h3>
 
-						<p>Pegawai terdaftar</p>
+						<p>Jumlah Restitusi Kesehatan Baru</p>
 					</div>
 					<div class="icon">
 						<i class="ion ion-person-stalker"></i>
@@ -44,7 +44,7 @@
 					<div class="inner">
 						<h3><?= $holiday_numrows ?></h3>
 
-						<p>Hari libur bulan ini</p>
+						<p>Jumlah Restitusi Kesehatan Bulan ini</p>
 					</div>
 					<div class="icon">
 						<i class="ion ion-calendar"></i>
@@ -59,7 +59,7 @@
 					<div class="inner">
 						<h3><?= $vacation_employee_numrows ?></h3>
 
-						<p>Pegawai yang izin bulan ini</p>
+						<p>Total Biaya Restitusi Kesehatan Pegawai</p>
 					</div>
 					<div class="icon">
 						<i class="ion ion-android-bicycle"></i>
@@ -73,10 +73,10 @@
 		<!-- Main row -->
 		<div class="row">
 			<!-- Left col -->
-			<section class="col-lg-7 connectedSortable">
+			<section class="col-lg-12 connectedSortable">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="card-title text-bold">10 teratas pegawai absen terbanyak periode lalu</h3>
+						<h3 class="card-title text-bold">10 teratas pegawai dengan kesehatan terbaik</h3>
 					</div>
 					<!-- /.card-header -->
 					<div class="card-body p-0 table-responsive">
@@ -85,9 +85,8 @@
 								<tr>
 									<th style="width: 10px">#</th>
 									<th>Nama Pegawai</th>
-									<th>Tidak hadir</th>
-									<th>Terlambat</th>
-									<th style="width: 30px">Kehadiran</th>
+									<th>Jumlah Restitusi</th>
+									<th>Total Pengeluaran</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -122,7 +121,7 @@
 			</section>
 			<!-- /.Left col -->
 			<!-- right col (We are only adding the ID to make the widgets sortable)-->
-			<section class="col-lg-5">
+			<?php /*<section class="col-lg-5">
 
 				<!-- Calendar -->
 				<div class="card bg-gradient-cyan">
@@ -143,6 +142,7 @@
 				<!-- /.card -->
 			</section>
 			<!-- right col -->
+			*/?>
 		</div>
 		<!-- /.row (main row) -->
 	</div><!-- /.container-fluid -->
